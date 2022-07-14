@@ -1,4 +1,6 @@
-cimport os
+#coded by ZoRRaKin
+
+import os
 import time
 os.system ('figlet ACHERON MOD SECİMİ')
 print("""
