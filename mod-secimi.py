@@ -39,10 +39,10 @@ if mod_secimi=="1":
             print("KOMUTUNU YAZINCA CALISACAKTIR")
         else:
             if hacker_mod_secim =="3":
-            print("İSTEGİNİZ DEVREDE")
-            os.system('cd RED_HAWK')
-            os.system('cd nikto ')
-            os.system('cd wpbf')
+                print("İSTEGİNİZ DEVREDE")
+                os.system('cd RED_HAWK')
+                os.system('cd nikto ')
+                os.system('cd wpbf')
             else:
                 if hacker_mod_secim =="4":
                     print("İSTEGİNİZ DEVREDE")
