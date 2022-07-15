@@ -25,12 +25,14 @@ if mod_secimi=="1":
     hacker_mod_secimi = str(input("HANGİ PAKETİ KULLANACAKSINIZ :"))
     if hacker_mod_secimi=="1":
         print("İSTEGİNİZ DEVREDE")
+        os.system('cd')
         os.system('cd oto-sqlmapp')
         os.system('ls')
         os.system('python oto-sqlmap.py')
     else:
         if hacker_mod_secimi=="2":
             print("İSTEGİNİZ DEVREDE")
+            os.system('cd')
             os.system('cd osi.ig')
             os.system('ls')
             os.system('pip install -r requirements.txt')
@@ -40,12 +42,14 @@ if mod_secimi=="1":
         else:
             if hacker_mod_secim =="3":
                 print("İSTEGİNİZ DEVREDE")
+                os.system('cd')
                 os.system('cd RED_HAWK')
                 os.system('cd nikto ')
                 os.system('cd wpbf')
             else:
                 if hacker_mod_secim =="4":
                     print("İSTEGİNİZ DEVREDE")
+                    os.system('cd')
                     os.system('cd hammer')
                     site_ip_bilgisi=str(input("SİTE İP GİRİNİZ :"))
                     print("python hammer.py -s ",site_ip_bilgisi,"-t 135")
@@ -53,6 +57,7 @@ if mod_secimi=="1":
                 else:
                     if hacker_mod_secim=="5":
                         print("İSTEGİNİZ DEVREDE")
+                        os.system('cd')
                         os.system('cd İPGeoLocation')
                         os.system('pip install colorama')
                         os.system('pip install termcolor')
@@ -62,6 +67,7 @@ if mod_secimi=="1":
 else:
     if mod_secimi=="2":
         print("CODER MOD DEVREYE GİRİYOR")
+        os.system('cd')
         os.system('nano')
     else:
         if mod_secimi=="3":
@@ -77,20 +83,24 @@ else:
             funny_mod_secimi = str(input("HANGİ PAKET DEVREYE SOKULSUN : "))
             if funny_mod_secimi=="1":
                 print("İSTEGİNİZ DEVREDE...")
+                os.system('cd')
                 os.system('cacafire')
             else:
                 if funny_mod_secimi=="2":
                     print('İSTEGİNİZ DEVREDE...')
+                    os.system('cd')
                     os.system('sl')
                 else:
                     if funny_mod_secimi=="3":
                         print("İSTEGİNİZ DEVREDE")
+                        os.system('cd')
                         istek=str(input("NE YAZIYIM DAYI"))
                         print("figlet",istek)
                         print("bu komutu yazınız calısacakır")
                     else:
                         if funny_mod_secimi=="4":
                             print("İSTEGİNİZ DEVREDE")
+                            os.system('cd')
                             os.system('cmatrix')
                         else:
                             print("HATALI SECIM YAPTINIZ")
