@@ -48,7 +48,7 @@ if mod_secimi=="1":
                     print("İSTEGİNİZ DEVREDE")
                     os.system('cd hammer')
                     site_ip_bilgisi=str(input("SİTE İP GİRİNİZ :"))
-                    print("python hammer.py -s "site_ip_bilgisi "-t 135")
+                    print("python hammer.py -s ",site_ip_bilgisi,"-t 135")
                     print("KOMUTUNU YAZINCA CALISACAKTIR")
                 else:
                     if hacker_mod_secim=="5":
