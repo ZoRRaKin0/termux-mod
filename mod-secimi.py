@@ -64,7 +64,7 @@ else:
         print("CODER MOD DEVREYE GİRİYOR")
         os.system('nano')
     else:
-        if mod_secimi=="3"
+        if mod_secimi=="3":
             print("FUNNY MOD DEVREYE GİRİYOR")
             time.sleep(1.2)
             os.system('clear')
